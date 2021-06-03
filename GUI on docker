@@ -1,0 +1,6 @@
+Commands
+
+Xhost +local:*
+Docker run -it -e DISPLAY=$DISPLAY -v /tmp.X11-unix:/tmp/.X11-unix/ centos
+Dbus-uuidgen > /etc/machine-id
+Yum install firedfox
